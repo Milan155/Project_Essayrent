@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="15dp"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="81dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/outline_email_24"
+        android:background="@drawable/btn_bg2"/>
+
+    <ImageButton
+        android:id="@+id/btn2"
+        android:layout_width="81dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="130dp"
+        android:background="@drawable/btn_bg2"
+        android:gravity="center"
+        android:src="@drawable/contect"
+        android:text="Item 1" />
+
+
+    <ImageButton
+        android:id="@+id/btn3"
+        android:layout_width="81dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="255dp"
+        android:background="@drawable/btn_bg2"
+        android:gravity="center"
+        android:src="@drawable/ic_google"
+        android:text="Item 1" />
+
+
+    <ImageButton
+        android:id="@+id/btn4"
+        android:layout_width="81dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="365dp"
+        android:background="@drawable/btn_bg2"
+        android:gravity="center"
+        android:src="@drawable/ic_facebook"
+        android:text="Item 1" />
+
+
+
+
+</androidx.cardview.widget.CardView>

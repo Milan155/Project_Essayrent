@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="720dp"
+    tools:context=".Activity.About_us">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:text="| Know about APP |"
+        android:textColor="@color/black"
+        android:textSize="35dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Basic details)"
+        android:textSize="19dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="155dp"
+        />
+
+    <ImageView
+        android:layout_width="76dp"
+        android:layout_height="53dp"
+        android:src="@drawable/baseline_arrow_drop_down_circle_24"
+        android:layout_marginTop="80dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutus1"
+        android:textSize="18dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="80dp"/>
+
+    <ImageView
+        android:layout_width="76dp"
+        android:layout_height="53dp"
+        android:src="@drawable/baseline_arrow_drop_down_circle_24"
+        android:layout_marginTop="155dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutus2"
+        android:textSize="18dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="155dp"/>
+    <ImageView
+        android:layout_width="76dp"
+        android:layout_height="53dp"
+        android:src="@drawable/baseline_arrow_drop_down_circle_24"
+        android:layout_marginTop="255dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutus3"
+        android:textSize="18dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="255dp"/>
+
+    <TextView
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/btn_bg3"
+        android:gravity="center"
+        android:text="Our active account"
+        android:layout_marginLeft="35dp"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        android:layout_marginTop="430dp">
+
+        <LinearLayout
+            android:id="@+id/scrollableLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"></LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</RelativeLayout>
